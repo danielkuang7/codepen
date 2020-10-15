@@ -2,7 +2,12 @@ import React from 'react';
 
 
 function App() {
-  return 'Hello World'
+  return (
+    <>
+    <div></div>
+    <div></div>
+    </>
+  )
 }
 
 export default App;
