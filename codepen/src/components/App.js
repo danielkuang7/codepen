@@ -4,8 +4,8 @@ import React from 'react';
 function App() {
   return (
     <>
-    <div></div>
-    <div></div>
+    <div className="pane top-pane"></div>
+    <div className="pane"></div>
     </>
   )
 }
