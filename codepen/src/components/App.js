@@ -8,6 +8,7 @@ function App() {
     <div className="pane">
       <iframe
         title = "output"
+        sandbox ="allow-scrpts"
       />
     </div>
     </>
