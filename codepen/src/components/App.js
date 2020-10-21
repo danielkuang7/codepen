@@ -9,6 +9,7 @@ function App() {
       <iframe
         title = "output"
         sandbox ="allow-scrpts"
+        frameBorder = "0"
       />
     </div>
     </>
