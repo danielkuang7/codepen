@@ -10,6 +10,7 @@ function App() {
         title = "output"
         sandbox ="allow-scrpts"
         frameBorder = "0"
+        width = "100%"
       />
     </div>
     </>
