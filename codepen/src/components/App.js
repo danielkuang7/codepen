@@ -4,7 +4,11 @@ import React from 'react';
 function App() {
   return (
     <>
-    <div className="pane top-pane"></div>
+    <div className="pane top-pane">
+      <Editor />
+      <Editor />
+      <Editor />
+    </div>
     <div className="pane">
       <iframe
         title = "output"
