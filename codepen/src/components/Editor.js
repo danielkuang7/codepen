@@ -8,7 +8,7 @@ import { Controlled as ControlledEditor } from 'react-codemirror2'
 
 export default function Editor() {
     return (
-        <div>
+        <div className="editor-container">
             Editor
         </div>
     )
