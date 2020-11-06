@@ -6,11 +6,13 @@ import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 
-export default function Editor() {
+export default function Editor( displayName) {
     return (
         <div className="editor-container">
-            <div className="editor-title"></div>
-            Editor
+            <div className="editor-title">
+            {displayName}
+            <button>O/C</button>
+            </div>
         </div>
     )
 }
