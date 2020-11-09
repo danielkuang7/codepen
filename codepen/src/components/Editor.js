@@ -13,6 +13,9 @@ export default function Editor( displayName) {
             {displayName}
             <button>O/C</button>
             </div>
+            <ControlledEditor
+             onBeforeChange={handleChange}
+            />
         </div>
     )
 }
