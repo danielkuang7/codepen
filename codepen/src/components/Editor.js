@@ -15,6 +15,7 @@ export default function Editor( displayName) {
             </div>
             <ControlledEditor
              onBeforeChange={handleChange}
+             value={value}
             />
         </div>
     )
