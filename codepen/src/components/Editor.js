@@ -16,6 +16,7 @@ export default function Editor( displayName) {
             <ControlledEditor
              onBeforeChange={handleChange}
              value={value}
+             className="code-mirror-wrapper"
             />
         </div>
     )
