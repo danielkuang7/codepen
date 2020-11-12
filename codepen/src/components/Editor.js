@@ -6,7 +6,11 @@ import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 
-export default function Editor( displayName) {
+export default function Editor(props) {
+    const{
+        language,
+        displayName
+    }= props
     return (
         <div className="editor-container">
             <div className="editor-title">
@@ -17,6 +21,11 @@ export default function Editor( displayName) {
              onBeforeChange={handleChange}
              value={value}
              className="code-mirror-wrapper"
+             options={{
+                 lineWrapping: true,
+                 lint: true,
+                 mode: language
+             }}
             />
         </div>
     )
