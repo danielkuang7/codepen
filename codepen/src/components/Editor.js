@@ -24,7 +24,8 @@ export default function Editor(props) {
              options={{
                  lineWrapping: true,
                  lint: true,
-                 mode: language
+                 mode: language,
+                 lineNumbers: true
              }}
             />
         </div>
