@@ -9,8 +9,13 @@ import { Controlled as ControlledEditor } from 'react-codemirror2'
 export default function Editor(props) {
     const{
         language,
-        displayName
+        displayName,
+        value,
+        onChange
     }= props
+
+    function handleChange(editor)
+
     return (
         <div className="editor-container">
             <div className="editor-title">
