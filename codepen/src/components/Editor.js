@@ -14,7 +14,9 @@ export default function Editor(props) {
         onChange
     }= props
 
-    function handleChange(editor)
+    function handleChange(editor, data, value){
+        onChange(value)
+    }
 
     return (
         <div className="editor-container">
