@@ -6,7 +6,12 @@ function App() {
   return (
     <>
     <div className="pane top-pane">
-      <Editor />
+      <Editor 
+        language="xml"
+        displayName="HTML"
+        value={}
+        onChange={}
+        />
       <Editor />
       <Editor />
     </div>
