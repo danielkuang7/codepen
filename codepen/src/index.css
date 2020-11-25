@@ -1,3 +1,7 @@
 body {
     margin: 0;
 }
+
+.top-pane {
+    background-color: hsl(225, 6%, 25%);
+}
