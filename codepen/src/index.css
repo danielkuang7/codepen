@@ -19,3 +19,9 @@ body {
     padding: .5rem;
     background-color: hsl(225, 6%, 25%);
 }
+
+.editor-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 13%);
+}
