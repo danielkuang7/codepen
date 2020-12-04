@@ -29,3 +29,10 @@ body {
     border-top-right-radius: .5rem;
     border-top-left-radius: .5rem;
 }
+
+.code-mirror-wrapper {
+    flex-grow: 1;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    overflow: hidden;
+}
