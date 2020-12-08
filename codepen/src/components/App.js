@@ -7,6 +7,12 @@ function App() {
   const [css, setCss] = useState('')
   const [js, setJs] = useState('')
 
+  const srcDoc = `
+   <html>
+    <body>${html}</body>
+   </html>
+  `
+
 
   return (
     <>
