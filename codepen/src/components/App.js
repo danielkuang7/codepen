@@ -10,6 +10,8 @@ function App() {
   const srcDoc = `
    <html>
     <body>${html}</body>
+    <style>${css}</style>
+    <script>${js}</script>
    </html>
   `
 
