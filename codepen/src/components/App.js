@@ -40,6 +40,7 @@ function App() {
     </div>
     <div className="pane">
       <iframe
+        srcDoc = {srcDoc}
         title = "output"
         sandbox ="allow-scrpts"
         frameBorder = "0"
