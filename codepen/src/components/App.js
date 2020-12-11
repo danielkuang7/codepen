@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 
 
@@ -6,6 +6,10 @@ function App() {
   const [html, setHtml] = useState('')
   const [css, setCss] = useState('')
   const [js, setJs] = useState('')
+
+  useEffect(() => {
+    
+  })
 
   const srcDoc = `
    <html>
