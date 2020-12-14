@@ -8,8 +8,10 @@ function App() {
   const [js, setJs] = useState('')
 
   useEffect(() => {
-    
-  })
+    const timeout = setTimeout(() => {
+      
+    })
+  }, [html, css, js])
 
   const srcDoc = `
    <html>
