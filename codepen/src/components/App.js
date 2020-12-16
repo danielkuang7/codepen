@@ -18,9 +18,9 @@ function App() {
       </html>
      `)
     }, 250)
-  }, [html, css, js])
 
-  const srcDoc = 
+    return () => clearTimeout(timeout)
+  }, [html, css, js])
 
 
   return (
