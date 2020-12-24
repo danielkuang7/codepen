@@ -5,6 +5,7 @@ import 'codemirror/mode/xml/xml'
 import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import { Controlled as ControlledEditor } from 'react-codemirror2'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Editor(props) {
     const{
