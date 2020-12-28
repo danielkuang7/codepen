@@ -28,7 +28,9 @@ export default function Editor(props) {
             {displayName}
             <button
                onClick={() => setOpen(prevOpen => !prevOpen)}
-            >O/C</button>
+            >
+                <FontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt} />
+            </button>
             </div>
             <ControlledEditor
              onBeforeChange={handleChange}
