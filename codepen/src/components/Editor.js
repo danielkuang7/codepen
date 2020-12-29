@@ -27,6 +27,8 @@ export default function Editor(props) {
             <div className="editor-title">
             {displayName}
             <button
+               type = "button"
+               className = "expand-collapse-btn"
                onClick={() => setOpen(prevOpen => !prevOpen)}
             >
                 <FontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt} />
