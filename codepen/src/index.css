@@ -31,6 +31,9 @@ body {
 .expand-collaps-btn {
     margin-left: .5rem;
     background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 .editor-title {
