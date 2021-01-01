@@ -26,6 +26,7 @@ body {
 
 .editor-container.editor-container.collagpsed .CodeMirror-scroll {
     position: absolute;
+    overflow: hidden !important;
 }
 
 .expand-collaps-btn {
