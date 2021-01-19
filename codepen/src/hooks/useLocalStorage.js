@@ -17,6 +17,10 @@ export default function useLocalStorage(key, initialValue) {
         }
     })
 
+    useEffect(() => {
+        
+    })
+
     
     return (
         <div>
