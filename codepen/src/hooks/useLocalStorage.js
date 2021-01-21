@@ -22,9 +22,5 @@ export default function useLocalStorage(key, initialValue) {
     }, [prefixedKey, value])
 
     
-    return (
-        <div>
-            
-        </div>
-    )
+    return [value, setValue]
 }
